@@ -14,6 +14,6 @@ include_directories(include)
 
 enable_testing()
 
-add_executable(test_vector tests/test_vector.cpp ${SOURCES})
+add_executable(test_vector tests/test_vector.cpp )
 
 add_test(NAME ${PROJECT_NAME} COMMAND test_vector)
